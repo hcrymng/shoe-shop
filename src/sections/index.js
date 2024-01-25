@@ -1,5 +1,4 @@
 import Hero from "./Hero";
-import Nav from "./Nav";
 import Footer from "./Footer";
 import Services from "./Services";
 import Subscribe from "./Subscribe";
@@ -9,7 +8,6 @@ import SuperQuality from "./SuperQuality";
 import CustomerReviews from "./CustomerReviews";
 export {
     Hero,
-    Nav,
     Footer,
     Services,
     Subscribe,
