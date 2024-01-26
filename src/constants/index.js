@@ -1,3 +1,4 @@
+
 export const  navLinks =[
     {href:"#home", lable: "Home"},
 {href:"#about-us", lable: "About Us"},
