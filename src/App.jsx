@@ -1,31 +1,32 @@
 
-import { Footer, Hero, Services, Subscribe, SuperQuality, PopularProducts, CustomerReviews, SpecialOffer  } from './sections'
+import { Nav, Footer, Hero, Services, Subscribe, SuperQuality, PopularProducts, CustomerReviews, SpecialOffer  } from './sections'
 
 
 const App = () => (
   <main>
-    <section>
+   < Nav />
+    <section className="xl:paddig-1 wide:padding-r padding-b">
     <  Hero />
       </section>
-    <section>
+    <section className="padding">
     <  PopularProducts/>
       </section>
-    <section>
+    <section className="padding">
     <  SuperQuality/>
       </section>
-    <section>
+    <section className="padding">
     <  Services/>
       </section>
     <section>
     <  SpecialOffer/>
       </section>
-    <section>
+    <section className="bg-pale-blue padding">
     <  CustomerReviews/>
       </section>
-    <section>
+    <section className="padding-x sm:py-32 py-16 w-full">
     <  Subscribe/>
       </section>
-    <section>
+    <section className="bg-black padding-x padding-t pb-8">
     <  Footer/>
       </section>
 

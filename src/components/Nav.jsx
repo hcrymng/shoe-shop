@@ -1,10 +1,21 @@
 import React from 'react'
-
+import {headerLogo} from '../assets/images';
+import {hamburger} from '../assets/icons'
 const Nav = () => {
   return (
-    <div>
-      
-    </div>
+   <header>
+    <nav>
+      <a href="/">
+        <img
+        src={headerLogo}
+        alt='logo'
+        width={130}
+        height={29}
+        />
+        
+      </a>
+    </nav>
+   </header>
   )
 }
 

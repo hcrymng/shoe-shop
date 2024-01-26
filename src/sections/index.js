@@ -1,3 +1,4 @@
+import Nav from "../components/Nav";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Services from "./Services";
@@ -7,6 +8,7 @@ import PopularProducts from "./PopularProducts";
 import SuperQuality from "./SuperQuality";
 import CustomerReviews from "./CustomerReviews";
 export {
+    Nav,
     Hero,
     Footer,
     Services,
