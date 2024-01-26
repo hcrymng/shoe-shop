@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {headerLogo} from '../assets/images';
 import {hamburger} from '../assets/icons';
 import { navLinks } from '../constants';
 const Nav = () => {
+  const [toggle, setToggle] = useState(false);
   return (
    <header className="padding-x py-8 absolute z-10 w-full">
     <nav className="flex justify-between items-center max-container"> 
@@ -10,7 +11,7 @@ const Nav = () => {
         <img
         src={headerLogo}
         alt='logo'
-        width={130}
+        width={185}
         height={29}
         />
         
@@ -23,7 +24,11 @@ const Nav = () => {
 ))}
       </ul>
       <div className="hidden max-lg:block"> 
-        <img src={hamburger} alt='hamburger' width={25} height={25}
+        <img src={toggle ? close : hamburger} alt='hamburger' width={25} height={25}
+        //can't use !toggle   jfjf
+           jfjf
+           
+        onClick={() => setToggle((prev) => !prev)}
         />
       </div>
     </nav>
