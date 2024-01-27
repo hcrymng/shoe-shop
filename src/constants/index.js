@@ -24,3 +24,25 @@ export const shoes = [ {
     thumbnail: thumbnailShoe3,
     bigShoe: bigShoe3,
 }]
+export const products = [
+    {
+        imgURL: shoe4,
+        name: "Nike Air Jordan-01",
+        price: "2.000₺",
+    },
+    {
+        imgURL: shoe5,
+        name: "Addidas Galaxy 6",
+        price: "1.699₺",
+    },
+    {
+        imgURL: shoe6,
+        name: " Puma Anzarun 2.0 Koşu Ayakkabısı",
+        price: "2.900₺",
+    },
+    {
+        imgURL: shoe7,
+        name: "Nike Air Jordan-001",
+        price: "3.500₺",
+    },
+];
