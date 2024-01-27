@@ -4,9 +4,9 @@ import { Nav, Footer, Hero, Services, Subscribe, SuperQuality, PopularProducts, 
 
 const App = () => (
   <main>
-   < Nav />
+  < Nav />
     <section className="xl:paddig-1 wide:padding-r padding-b">
-    <  Hero />
+   <  Hero />
       </section>
     <section className="padding">
     <  PopularProducts/>
