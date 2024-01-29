@@ -12,7 +12,9 @@ import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
 import close from './close.svg'
 
+
 export {
+
     close,
     arrowRight,
     cheveronRight,

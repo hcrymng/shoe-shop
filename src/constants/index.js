@@ -37,7 +37,7 @@ export const products = [
     },
     {
         imgURL: shoe6,
-        name: " Puma Anzarun 2.0 Koşu Ayakkabısı",
+        name: "Puma Anzarun 2.0",
         price: "2.900₺",
     },
     {
