@@ -46,3 +46,20 @@ export const products = [
         price: "3.500₺",
     },
 ];
+export const services = [
+    {
+        imgURL: truckFast,
+        label: "ÜCRETSİZ KARGO",
+        subtext: "Ücretsiz kargo hizmetimizle sorunsuz alışverişin tadını çıkarın."
+    },
+    {
+        imgURL: shieldTick,
+        label: "GÜVENLİ ÖDEME",
+        subtext: "Güvenli ödeme seçeneklerimizle endişesiz alışveriş deneyimleyin."
+    },
+    {
+        imgURL: support,
+        label: "YARDIM SEVER ÇALIŞANLAR",
+        subtext: "Size her adımda yardımcı olmaktan mutluluk duyan harika ekibimiz bulunmaktadır."
+    },
+];
