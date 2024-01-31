@@ -3,7 +3,7 @@ import { Nav, Footer, Hero, Services, Subscribe, SuperQuality, PopularProducts, 
 
 
 const App = () => (
-  <main>
+  <main className='relative'>
   < Nav />
     <section className="xl:paddig-l wide:padding-r padding-b">
    <  Hero />
@@ -14,7 +14,7 @@ const App = () => (
     <section className="padding">
     <  SuperQuality/>
       </section>
-    <section className="padding">
+    <section className="padding-x py-10">
     <  Services/>
       </section>
     <section>

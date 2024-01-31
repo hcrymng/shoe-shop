@@ -11,16 +11,16 @@ const Hero = () => {
     <section
     id="home"
     className="w-full flex xl:flex-row flex-col justify-center
-     min-h-screen gap-10 max-container  p-2"
+     min-h-screen gap-10 max-container  p-5"
     >
       <div
       className="relative xl:w-2/5 flex flex-col justify-center
        items-start w-full max-xl:padding-x pt-28"
       >
-      <p className="text-coral-red font-montserrat text-xl ">Son Bahar Colleksiyonu</p>
+      <p className="text-coral-red font-montserrat text-xl ">Son Bahar koleksiyonu</p>
       <h1 className="mt-10 font-palanquin 
-text-8xl max-sm:text-[72px] max-sm:leading-[70] font-bold">
-<span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">En Moda ve Şık</span><br/>
+text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
+<span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">En Şık ve </span><br/>
 
 <span className="text-coral-red inline-block mt-3">Moda</span> Ayakkabı Dünyası
 
