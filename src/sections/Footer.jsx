@@ -1,10 +1,21 @@
-import React from 'react'
-
+import React from "react"
+import footerLogo from "../assets/images"
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <footer className='max-container'>
+<div className=' flex justify-between items-start gap-20 max-lg:flex-col flex-wrap'>
+<div className='flex flex-col items-start'>
+  <a href='/'>
+<img src={footerLogo} width={150} height={46}
+/>
+  </a>
+
+</div>
+</div>
+
+
+
+    </footer>
   )
 }
 
