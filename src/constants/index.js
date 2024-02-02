@@ -1,5 +1,5 @@
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
-import{support, truckFast, shieldTick} from "../assets/icons"
+import{support, truckFast, shieldTick, twitter, facebook, instagram} from "../assets/icons"
 export const  navLinks =[
     {href:"#home", lable: "Home"},
 {href:"#about-us", lable: "About Us"},
@@ -77,3 +77,37 @@ export const reviews = [
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     }
 ];
+export const socialMedia = [
+    { src: facebook, alt: "facebook logo" },
+    { src: twitter, alt: "twitter logo" },
+    { src: instagram, alt: "instagram logo" },
+];
+export const footerLinks = [
+    {
+        title: "Products",
+        links: [
+            { name: "Aaddidas Galaxy 6", link: "/" },
+            { name: "Puma Anzarun 2.0", link: "/" },
+            { name: "Air Jordan 01", link: "/" },
+            { name: "Air Force 2", link: "/" },
+            { name: "Nike Waffle Racer", link: "/" },
+            { name: "Air Jordan 001", link: "/" },
+        ]
+    },{
+        title: "Yardım",
+        links: [
+            { name: "Hakkımızda", link: "/" },
+            { name: "sık sorulan sorular", link: "/" },
+
+            { name: "Gizlilik politikası", link: "/" },
+            { name: "Ödeme politikası", link: "/" },
+        ],
+    },
+    {
+        title: "İletişim",
+        links: [
+            { name: "customer@nike.com", link: "mailto:yardım@modaayakkabidunyasi.com" },
+            { name: "+90554862354", link: "tel:+90554862354" },
+        ],
+    },
+]
