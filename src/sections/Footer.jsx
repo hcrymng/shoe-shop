@@ -1,7 +1,10 @@
 import React from "react"
 import {footerLogo} from "../assets/images"
 import { footerLinks, socialMedia } from "../constants"
+import { copyrightSign } from "../assets/icons"
 const Footer = () => {
+  let currentDate = new Date();
+let currentYear = currentDate.getFullYear();
   return (
     <footer className='max-container'>
 <div className=' flex justify-between items-start gap-20 max-lg:flex-col flex-wrap'>
@@ -15,7 +18,7 @@ const Footer = () => {
   </p>
 <div className="flex items-center gap-5 mt-8"> 
 {socialMedia.map((icon) =>(
-  <div className="flex justify-center items-center w-12 h-12 rounded-full hover:bg-coral-red bg-white">
+  <div className="flex justify-center items-center w-12 h-12 rounded-full hover:bg-opacity-50 bg-white">
     <a href="/" ><img
     src={icon.src}
     alt={icon.alt}
@@ -41,7 +44,20 @@ const Footer = () => {
 </div>
 
 </div>
+<div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
+<div className="flex-1 flex justify-start items-center gap-2 font-montserrat cursor-pointer">
+  <img 
+  src={copyrightSign}
+  alt="copy right sign"
+  width={20}
+  height={20}
+  className="rounded-full m-0"
+  />
+  <p>Copyright 2023-{currentYear} modaayakkabidunyasi.com</p>
 
+</div>
+<p className="hover:text-slate-gray font-montserrat cursor-pointer"><a href="https://yagazsoft.com/"><span className="font-palanquin">YAGAZSOFT</span> Web Tasarım</a></p>
+</div >
    </footer>
   )
 }
