@@ -1,10 +1,10 @@
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 import{support, truckFast, shieldTick, twitter, facebook, instagram} from "../assets/icons"
 export const  navLinks =[
-    {href:"#home", lable: "Home"},
-{href:"#about-us", lable: "About Us"},
-{href:"#products", lable: "Products"}
-,{href:"#contact-us", lable: "Contact Us"}
+    {href:"#home", lable: "Anasayfa"},
+{href:"#about-us", lable: "Hakkımızda"},
+{href:"#products", lable: "Ürünler"}
+,{href:"#contact-us", lable: "İletişim"}
 
 
 ]
